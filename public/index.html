@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/pico.min.css">
+  <title>Document</title>
+</head>
+<body>
+  <h1>This is my website</h1> 
+  <a href="about.html" target="_blank" style="margin-bottom: 20px;"><button>about</button></a>
+  <form action="/login" method="post">
+    <fieldset class="grid">
+      <input name="user_id" placeholder="Login" required />
+      <input type="password" name="password" placeholder="Password" required />
+      <input type="submit" value="Log in" />
+    </fieldset>
+  </form>
+  <form action="/register" method="POST">
+    <fieldset class="grid">
+      <input name="user_id" placeholder="New Username" required />
+      <input type="password" name="password" placeholder="New Password" require />
+      <input type="submit" value="Register" />
+    </fieldset>
+  </form>
+</body>
+</html>
