@@ -1,0 +1,32 @@
+# Node.js dependencies
+node_modules/
+
+# Environment variables (DO NOT commit secrets!)
+.env
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE and editor settings
+.vscode/
+.idea/
+
+# OS-specific junk
+.DS_Store         # macOS
+Thumbs.db         # Windows
+
+# Build folders (optional if you're compiling/transpiling)
+dist/
+build/
+
+# Coverage reports (if using tests)
+coverage/
+
+# Miscellaneous
+*.tgz             # npm pack files
+.env.local
+.env.*.local
